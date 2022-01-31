@@ -3,13 +3,14 @@ import { CounterContext } from './CounterContext';
 
 export const CounterProvider = ({ children }) => {
 	const [numberOfClicks, setNumberOfClicks] = useState(0);
+	const [incrementBy, setIncrementBy] = useState(1);
 
 	const increment = amount => {
-		setNumberOfClicks(numberOfClicks + 1);
+		setNumberOfClicks(numberOfClicks + incrementBy);
 	}
 
 	return (
-		<CounterContext.Provider value={{numberOfClicks, increment}}>
+		<CounterContext.Provider value={{numberOfClicks, increment, incrementBy, setIncrementBy}}>
 			{children}
 		</CounterContext.Provider>
 	)
