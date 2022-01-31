@@ -43,6 +43,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/testing-library__jest-dom", "npm:5.14.2"],
             ["eslint-config-react", "npm:1.1.7"],
             ["eslint-config-react-app", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:6.0.0"],
+            ["mobx", "npm:6.3.13"],
+            ["mobx-react-lite", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:3.2.3"],
             ["node-modules", "npm:1.0.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:17.0.2"],
@@ -13058,6 +13060,49 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["mobx", [
+        ["npm:6.3.13", {
+          "packageLocation": "./.yarn/cache/mobx-npm-6.3.13-3ef4aaa249-2ab413a323.zip/node_modules/mobx/",
+          "packageDependencies": [
+            ["mobx", "npm:6.3.13"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["mobx-react-lite", [
+        ["npm:3.2.3", {
+          "packageLocation": "./.yarn/cache/mobx-react-lite-npm-3.2.3-1434f6206f-d645e3c76f.zip/node_modules/mobx-react-lite/",
+          "packageDependencies": [
+            ["mobx-react-lite", "npm:3.2.3"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:3.2.3", {
+          "packageLocation": "./.yarn/__virtual__/mobx-react-lite-virtual-7c71a5acd9/0/cache/mobx-react-lite-npm-3.2.3-1434f6206f-d645e3c76f.zip/node_modules/mobx-react-lite/",
+          "packageDependencies": [
+            ["mobx-react-lite", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:3.2.3"],
+            ["@types/mobx", null],
+            ["@types/react", null],
+            ["@types/react-dom", null],
+            ["@types/react-native", null],
+            ["mobx", "npm:6.3.13"],
+            ["react", "npm:17.0.2"],
+            ["react-dom", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:17.0.2"],
+            ["react-native", null]
+          ],
+          "packagePeers": [
+            "@types/mobx",
+            "@types/react-dom",
+            "@types/react-native",
+            "@types/react",
+            "mobx",
+            "react-dom",
+            "react-native",
+            "react"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["move-concurrently", [
         ["npm:1.0.1", {
           "packageLocation": "./.yarn/cache/move-concurrently-npm-1.0.1-e1e3c7e2cf-4ea3296c15.zip/node_modules/move-concurrently/",
@@ -15848,6 +15893,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/testing-library__jest-dom", "npm:5.14.2"],
             ["eslint-config-react", "npm:1.1.7"],
             ["eslint-config-react-app", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:6.0.0"],
+            ["mobx", "npm:6.3.13"],
+            ["mobx-react-lite", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:3.2.3"],
             ["node-modules", "npm:1.0.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:468935adef45492805813c27cd3e8db10af76eca6d114439d67819efcf6f7a6eeb9f368d4bbe0580dd4e56f2f48f5f9cecba8175e57c78df9f741f3844d445bf#npm:17.0.2"],

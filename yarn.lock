@@ -9953,6 +9953,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mobx-react-lite@npm:^3.2.3":
+  version: 3.2.3
+  resolution: "mobx-react-lite@npm:3.2.3"
+  peerDependencies:
+    mobx: ^6.1.0
+    react: ^16.8.0 || ^17
+  peerDependenciesMeta:
+    react-dom:
+      optional: true
+    react-native:
+      optional: true
+  checksum: d645e3c76f29ab22e4125f372531e00a776bd3833d3aab5cab2631e0eb1a90aa6cd36aa78ef1a27b53489eac89335bbdbb3b2c4f0c15248e8d306cd15b555931
+  languageName: node
+  linkType: hard
+
+"mobx@npm:^6.3.13":
+  version: 6.3.13
+  resolution: "mobx@npm:6.3.13"
+  checksum: 2ab413a323d127081cfc749771aea5f6f6fc3c0f573dc147144356694c2f804df1a0b19cc0cac0e37d236d47d0c767571fa7a6b448dd1f9cb7e05dcad90506bc
+  languageName: node
+  linkType: hard
+
 "move-concurrently@npm:^1.0.1":
   version: 1.0.1
   resolution: "move-concurrently@npm:1.0.1"
@@ -12405,6 +12427,8 @@ __metadata:
     "@types/testing-library__jest-dom": ^5.14.2
     eslint-config-react: ^1.1.7
     eslint-config-react-app: 6
+    mobx: ^6.3.13
+    mobx-react-lite: ^3.2.3
     node-modules: ^1.0.1
     react: ^17.0.2
     react-dom: ^17.0.2
