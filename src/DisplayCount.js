@@ -5,6 +5,6 @@ export const DisplayCount = () => {
 	const clicksData = useRecoilValue(counterState);
 
 	return (
-		<h2>Number Of Clicks: {clicksData.length}</h2>
+		<h2>Number Of Clicks: {clicksData}</h2>
 	)
 }
